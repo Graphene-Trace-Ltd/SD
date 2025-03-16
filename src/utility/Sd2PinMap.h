@@ -524,5 +524,5 @@ void fastDigitalWrite(uint8_t pin, uint8_t value) {
 #endif	// Arduino ARC
 
 #else
-#error Architecture or board not supported.
+//#error Architecture or board not supported.
 #endif
